@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Patients</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Patient Module</h2>
+
+<div class="form-box">
+    <input id="pname" type="text" placeholder="Patient Name">
+    <input id="page" type="number" placeholder="Age">
+    <input id="pdisease" type="text" placeholder="Disease">
+    <button onclick="addPatient()">Add Patient</button>
+</div>
+
+<h3>Patient List</h3>
+<table id="patientTable" border="1" style="margin:auto;"></table>
+
+<script src="script.js"></script>
+<script>
+    displayPatients(); 
+</script>
+
+</body>
+</html>
