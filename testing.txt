@@ -1,0 +1,17 @@
+Checklist to test:
+
+Add patient
+
+Delete patient
+
+Add doctor
+
+Book appointment
+
+Generate bill
+
+Navigate pages
+
+Buttons working
+
+Form validations
